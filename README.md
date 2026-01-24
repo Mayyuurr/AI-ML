@@ -10,9 +10,9 @@ This repository is structured as a progressive learning path. Each module contai
 
 | Module | Focus Area | Key Concepts | Status |
 | :--- | :--- | :--- | :--- |
-| [🐍 Python](./python) | Core Fundamentals | OOP, Logic, Data Structures | ✅ Complete |
-| [🔢 NumPy](./numpy) | Numerical Computing | Vectorization, Linear Algebra, Arrays | ✅ Complete |
-| [🐼 Pandas](./pandas) | Data Manipulation | Cleaning, Merging, Feature Extraction | ✅ Complete |
+| [🐍 Python](./python_basics) | Core Fundamentals | OOP, Logic, Data Structures | ✅ Complete |
+| [🔢 NumPy](./Numpy) | Numerical Computing | Vectorization, Linear Algebra, Arrays | ✅ Complete |
+| [🐼 Pandas](./Pandas) | Data Manipulation | Cleaning, Merging, Feature Extraction | ✅ Complete |
 | [📊 Visualization](./viz) | Data Storytelling | Matplotlib, Seaborn | 🏗️ In Progress |
 
 ---
