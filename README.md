@@ -1,42 +1,71 @@
-# Python & AI/ML Foundation
+# 🚀 AI/ML Foundations: From Logic to Libraries
 
-This repository tracks my progress from Python fundamentals to advanced software engineering concepts, serving as the base for my future AI and Machine Learning projects.
+Welcome to my central repository for mastering the Artificial Intelligence and Machine Learning stack. This project documents my transition from a Computer Engineering student to an AI/ML practitioner, focusing on building a deep, first-principles understanding of data tools.
 
 ---
 
-## 📌 Roadmap & Topics Covered
+## 🗺️ Project Roadmap
 
-The repository is structured to show a logical progression of skills:
+This repository is structured as a progressive learning path. Each module contains its own documentation, datasets, and Jupyter notebooks.
 
-### 1. Python Fundamentals (with Exercises)
-* **Data Structures**: Deep dive into Lists, Tuples, Sets, and Dictionaries.
-* **Control Flow**: Mastery of conditionals (`if-elif-else`) and loops (`for`, `while`).
-* **Functional Programming**: Writing reusable code with functions, including scope and arguments.
+| Module | Focus Area | Key Concepts | Status |
+| :--- | :--- | :--- | :--- |
+| [🐍 Python](./python) | Core Fundamentals | OOP, Logic, Data Structures | ✅ Complete |
+| [🔢 NumPy](./numpy) | Numerical Computing | Vectorization, Linear Algebra, Arrays | ✅ Complete |
+| [🐼 Pandas](./pandas) | Data Manipulation | Cleaning, Merging, Feature Extraction | ✅ Complete |
+| [📊 Visualization](./viz) | Data Storytelling | Matplotlib, Seaborn | 🏗️ In Progress |
 
-### 2. Advanced Python Concepts
-* **Object-Oriented Programming (OOP)**: Implementing classes, inheritance, and encapsulation.
-* **Closures & Decorators**: Enhancing function behavior and managing state.
-* **Error Handling**: Using `try-except` blocks to build resilient applications.
-* **File Handling**: Reading and writing data using the `json` format.
-
-### 3. Environment & Tools
-* **Virtual Environments**: Using `venv` to manage isolated dependencies for different projects.
 ---
 
-## 🛠️ Projects & Practical Applications
+## 🛠️ Tech Stack & Environment
 
-### 1. Video Manager (File Handling)
-* **Goal**: Manage a video library using persistent storage.
-* **Features**: Uses the `json` module to read from and write data to a local file.
-* **Concepts**: File I/O, JSON parsing, and data serialization.
+I use a **centralized virtual environment** to ensure dependency consistency across all modules.
 
-### 2. Video Manager (Database Integration)
-* **Goal**: Upgrade the Video Manager to use a real database.
-* **Features**: Built using the `sqlite3` module for structured data management.
-* **Concepts**: SQL queries, CRUD operations (Create, Read, Update, Delete), and database connections.
+* **Language:** Python 3.14.2
+* **Libraries:** NumPy, Pandas (and growing!)
+* **Editor:** VS Code / Jupyter Notebooks
+* **Version Control:** Git & GitHub
+* **OS:** Windows (PowerShell optimized)
 
-### 3. API Handling
-* **Goal**: Interact with real-world data from the web.
-* **Features**: Used the `requests` package to fetch and handle API responses.
-* **Concepts**: HTTP methods, status codes, and external package management.
 
+---
+
+## 📈 My Journey
+I am building this in public to document my transition into the AI/ML space. My goal is to master the math and the libraries behind modern AI, focusing on creating clean, reproducible, and efficient code. 
+
+> "The best way to learn is to build, break, and document."
+
+---
+
+
+## ⚙️ Local Setup & Installation
+
+To run these notebooks on your local machine, follow these steps:
+
+1. **Clone the repository:**
+   ```powershell
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
+2. **Create a Central Virtual Environment:**
+
+   Instead of using per-folder environments, we use a single root environment to manage all modules efficiently:
+
+   ```powershell
+   python -m venv venv
+3. **Activate the Environment:**
+
+   ```powershell
+   .\venv\Scripts\activate
+4. **Install Consolidated Dependencies:**
+   ```powershell
+   pip install -r requirements.txt
+5. **Select Interpreter in VS Code:**
+   To ensure your Jupyter Notebooks use the correct environment:
+   
+   1. Open any `.ipynb` file in your repository.
+
+   2. Click on "Select Kernel" in the top right corner(or press `Ctrl + Shift + P`).
+   
+   3. Search for and choose **"Python: Select Interpreter"**.
+   
+   4. Select the environment located at: `./venv/Scripts/python.exe`.
